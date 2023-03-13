@@ -28,7 +28,7 @@ const Projects = () => {
             <ProjectItem>
               <img src="/images/trax.png" alt="" />
               <h2>  <span id="colorspans"> Trax</span></h2>
-              <p>Made a responsive Diney Hotstar clone using React.js, in which I used my own JSON API to fetch movies and Youtube's Data API for trailers.</p>
+              <p>Made a responsive Youtube clone using React.js, in which I used Youtube's Data API to fetch likes, comments, trailers.</p>
               <Linkbox>
                 <a href="https://github.com/ikarthik21/Trax" target="_blank" rel="noreferrer">   <span> <AiFillGithub size={21} /> <h4>Git </h4>   </span>  </a>
                 <a href="https://trax-kk.onrender.com/" target="_blank" rel="noreferrer">   <span> <AiOutlineLink size={21} /> <h4> Live </h4>  </span>  </a>
@@ -39,20 +39,20 @@ const Projects = () => {
             <ProjectItem>
               <img src="/images/HotstarImg.png" alt="" />
               <h2>  <span id="colorspans"> HotStar</span>     Clone</h2>
-              <p>Made a responsive Youtube using React.js, in which I used Youtube's Data API to fetch likes, comments, trailers.</p>
+              <p>Made a responsive Disney Hotstar clone using React.js, in which I used my own JSON API to fetch movies and Youtube's Data API for trailers.</p>
               <Linkbox>
                 <a href="https://github.com/ikarthik21/Hotstar_Clone.io" target="_blank" rel="noreferrer">   <span> <AiFillGithub size={21} /> <h4>Git </h4>   </span>  </a>
                 <a href="https://hotstar-clone-kk.onrender.com/" target="_blank" rel="noreferrer">   <span> <AiOutlineLink size={21} /> <h4> Live </h4>  </span>  </a>
-            </Linkbox>
+              </Linkbox>
             </ProjectItem>
 
 
-           
+
 
           </ProjectsBox>
 
           <ProjectsBox>
-          <ProjectItem>
+            <ProjectItem>
               <img src="/images/movieAPI.png" alt="" />
               <h2><span id="colorspans">Movie</span>API</h2>
               <p>Made a Open JSON movie API using Express.js which can fetch movie details such as name, year of release, director, duration , cast, Trailer.  </p>
