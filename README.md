@@ -42,13 +42,15 @@ Start the server
 ## Screenshots
  
 
-![App Screenshot](./Screenshots/home.png)
+![App Screenshot](./screenshots/home.png)
 
  
-![App Screenshot](./Screenshots/profskills.png)
-![App Screenshot](./Screenshots/projects.png)
-![App Screenshot](./Screenshots/contact.png)
+![App Screenshot](./screenshots/profskills.png)
+![App Screenshot](./screenshots/projects.png)
+![App Screenshot](./screenshots/contact.png)
 
 <div align="center"> 
-![App Screenshot](./Screenshots/phonemode.png)  
+
+![App Screenshot](./screenshots/phonemode.png)  
+
 </div>
