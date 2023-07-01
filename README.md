@@ -42,14 +42,13 @@ Start the server
 ## Screenshots
  
 
-![App Screenshot](https://i.ibb.co/GJNNPvk/p1.png)
+![App Screenshot](./Screenshots/home.png)
 
  
-![App Screenshot](https://i.ibb.co/L6xz8rh/p2.png)
+![App Screenshot](./Screenshots/profskills.png)
+![App Screenshot](./Screenshots/projects.png)
+![App Screenshot](./Screenshots/contact.png)
 
- 
-![App Screenshot](https://i.ibb.co/47t5Djy/p3.png)
- 
-![App Screenshot](https://i.ibb.co/3R1Wpdm/p4.png)
- 
- ![App Screenshot](https://i.ibb.co/vDTfR1D/p5.png)
+<div align="center"> 
+![App Screenshot](./Screenshots/phonemode.png)  
+</div>
