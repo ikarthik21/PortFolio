@@ -9,8 +9,7 @@ const TypeWrite = () => {
                 options={{
                     strings: [
                         "Full Stack Developer",
-                        "Cyber Security Enthusiast",
-                        "MERN Stack Developer",
+                        "MERN and related technologies",
                       
                     ],
                     autoStart: true,
