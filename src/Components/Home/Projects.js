@@ -17,11 +17,11 @@ const Projects = () => {
             <ProjectItem>
               <img src="/images/RestobayImg.png" alt="" />
               <h2> <span id="colorspans">Resto</span>bay</h2>
-              <p>Made a real time E-Restaurant website using EJS , CSS , JS, NODE JS , EXPRESS JS ,
-                MONGODB which repalces the current system and saves time and money. </p>
+              <p>Made a real time E-Restaurant website using React.js, Node.js , Express.js ,
+                MongoDB, Razorpay which repalces the current system and saves time and money. </p>
               <Linkbox>
-                <a href="https://github.com/ikarthik21/Restobay.io" target="_blank" rel="noreferrer"><span> <AiFillGithub size={21} /> <h4>Git </h4>   </span>  </a>
-                <a href="https://restobay-kk.onrender.com/" target="_blank" rel="noreferrer">   <span> <AiOutlineLink size={21} /> <h4> Live </h4>  </span>  </a>
+                <a href="https://github.com/ikarthik21/Restobay" target="_blank" rel="noreferrer"><span> <AiFillGithub size={21} /> <h4>Git </h4>   </span>  </a>
+                <a href="https://restobayfoods.onrender.com/" target="_blank" rel="noreferrer">   <span> <AiOutlineLink size={21} /> <h4> Live </h4>  </span>  </a>
               </Linkbox>
             </ProjectItem>
 
