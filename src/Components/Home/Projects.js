@@ -24,6 +24,16 @@ const Projects = () => {
                 <a href="https://restobayfoods.onrender.com/" target="_blank" rel="noreferrer">   <span> <AiOutlineLink size={21} /> <h4> Live </h4>  </span>  </a>
               </Linkbox>
             </ProjectItem>
+            <ProjectItem>
+
+              <img src="/images/promptify.png" alt="" className='spl_img' />
+              <h2> <span id="colorspans">Prompt</span>ify</h2>
+              <p>developed a prompting tool using Next.js to discover creative prompts where users can create, read, update, and delete prompts and can search by tags.</p>
+              <Linkbox>
+                <a href="https://github.com/ikarthik21/Promptify" target="_blank" rel="noreferrer"><span> <AiFillGithub size={21} /> <h4>Git </h4>   </span>  </a>
+                <a href="https://promptifyk.vercel.app/" target="_blank" rel="noreferrer">   <span> <AiOutlineLink size={21} /> <h4> Live </h4>  </span>  </a>
+              </Linkbox>
+            </ProjectItem>
 
             <ProjectItem>
               <img src="/images/trax.png" alt="" />
@@ -46,12 +56,6 @@ const Projects = () => {
               </Linkbox>
             </ProjectItem>
 
-
-
-
-          </ProjectsBox>
-
-          <ProjectsBox>
             <ProjectItem>
               <img src="/images/movieAPI.png" alt="" />
               <h2><span id="colorspans">Movie</span>API</h2>
@@ -73,6 +77,14 @@ const Projects = () => {
               </Linkbox>
             </ProjectItem>
 
+
+
+
+
+          </ProjectsBox>
+
+          <ProjectsBox>
+        
             <ProjectItem>
               <img src="/images/CalciImg.png" alt="" />
               <h2>Simple  <span id="colorspans">Calculator </span> </h2>
@@ -101,7 +113,7 @@ const Container = styled.section`
    display :flex;
   align-items::center;
   flex-direction :column;
-  padding: 100px 100px;
+  padding: 100px 40px;
 h1{
   font-family: 'Anton', sans-serif;
   letter-spacing : 1.5px;
@@ -132,7 +144,8 @@ const ProjectsBox = styled.div`
  display:flex;
  margin: 20px 0px;
 flex-wrap:wrap;
- 
+align-items:center;
+justify-content:center; 
  @media(250px <= width  <= 1200px) {
  flex-direction:column;
  
@@ -145,9 +158,9 @@ flex-wrap:wrap;
 
 const ProjectItem = styled.div`
  
-  max-width: 320px;
- display:flex;
- border-radius : 7px;
+max-width: 320px;
+display:flex;
+border-radius : 7px;
 flex-direction:column;
 margin: 10px 25px;
 padding: 15px  2rem;
@@ -172,12 +185,11 @@ padding: 15px  2rem;
  transition: transform  0.8s;
 
  &:hover{
-  transform:scale(1.08,1.15);
+  transform:scale(1.03,1.08);
  }
  @media(250px <= width  <= 1200px) {
   max-width: 280px;
-  margin: 50px auto;
-  
+  margin: 50px auto;  
  }
  
  

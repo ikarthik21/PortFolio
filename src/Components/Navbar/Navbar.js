@@ -17,7 +17,7 @@ const Navbar = () => {
       const scrollCheck = window.scrollY < 70;
       if (scrollCheck !== scroll) {
         setScroll(scrollCheck);
-      }
+      } 
     };
 
     window.addEventListener('scroll', onScroll);
@@ -31,9 +31,9 @@ const Navbar = () => {
     <>
       <Nav scroll={scroll}>
         <Logo>
-        <Link to="/" style={linkStyle}>
-        <img src="/images/logo.png" alt="" /> </Link>
-         
+          <Link to="/" style={linkStyle}>
+            <img src="/images/logo.png" alt="" /> </Link>
+
         </Logo>
         <Menu>
           <Link to="/home" style={linkStyle}>

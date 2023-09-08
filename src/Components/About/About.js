@@ -58,6 +58,9 @@ const About = () => {
                         <ListItem>
                             <img src="/images/react.png" alt="" />
                         </ListItem>
+                        <ListItem>
+                            <img src="/images/next.png" alt="" />
+                        </ListItem>
 
 
                         <ListItem>
@@ -99,9 +102,7 @@ const About = () => {
                     <ListItem>
                         <img src="/images/vscode.png" alt="" />
                     </ListItem>
-                    <ListItem>
-                        <img src="/images/ij.png" alt="" />
-                    </ListItem>
+                  
                     <ListItem>
                         <img src="/images/JSBIN.png " alt="" />
                     </ListItem>
