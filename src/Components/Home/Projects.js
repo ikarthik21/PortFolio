@@ -89,13 +89,6 @@ const Projects = () => {
             </ProjectItem>
 
 
-
-
-
-          </ProjectsBox>
-
-          <ProjectsBox>
-
             <ProjectItem>
               <img src="/images/CalciImg.png" alt="" />
               <h2>Simple  <span id="colorspans">Calculator </span> </h2>
@@ -107,7 +100,9 @@ const Projects = () => {
             </ProjectItem>
 
 
+
           </ProjectsBox>
+
 
 
         </ContentBox>
