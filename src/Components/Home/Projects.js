@@ -25,6 +25,17 @@ const Projects = () => {
               </Linkbox>
             </ProjectItem>
             <ProjectItem>
+              <img src="/images/connecxo.png" alt="" style={{ height: 180, width: 270, borderRadius: 10, marginBottom: 20 }} />
+              <h2> <span id="colorspans">Conn</span>exco</h2>
+              <p>Made a real time chat app  using Next.js, Tailwind CSS,  Node.js , Express.js,
+                PostgreSQL, Prisma, Zegocloud with functionalities to chat, share images, audio,
+                while also providing high-quality audio and video call capabilities. </p>
+              <Linkbox>
+                <a href="https://github.com/ikarthik21/Connecxo" target="_blank" rel="noreferrer"><span> <AiFillGithub size={21} /> <h4>Git </h4>   </span>  </a>
+                <a href="https://connecxo.vercel.app/" target="_blank" rel="noreferrer">   <span> <AiOutlineLink size={21} /> <h4> Live </h4>  </span>  </a>
+              </Linkbox>
+            </ProjectItem>
+            <ProjectItem>
 
               <img src="/images/promptify.png" alt="" className='spl_img' />
               <h2> <span id="colorspans">Prompt</span>ify</h2>
@@ -84,7 +95,7 @@ const Projects = () => {
           </ProjectsBox>
 
           <ProjectsBox>
-        
+
             <ProjectItem>
               <img src="/images/CalciImg.png" alt="" />
               <h2>Simple  <span id="colorspans">Calculator </span> </h2>
